@@ -1,25 +1,86 @@
 @charset "UTF-8";
 
-.backgroundImage {
+/* .backgroundImage {
     background-image: url('../images/podoxm.jpg');
     background-color: antiquewhite;
     background-repeat: no-repeat;
     height: 400px;
-}
+} */
 
 /* Example: Customizing the Navbar */
+
+header{ 
+    height: 45px;
+    background-color: #1EBEA5;
+}
+
 .navbar {
-    background-color: #343a40; /* Dark background */
+    background-color: #11FFD4; /* Dark background */
+    color: white !important;
 }
 .navbar .navbar-brand, 
 .navbar .nav-link {
     color: #ffffff; /* White text */
 }
 .navbar .nav-link:hover {
-    color: #f8f9fa; /* Light gray on hover */
+    color: #ffffff; /* Light gray on hover */
 }
 
-.textMain {
+.mainImg {
+    height: 400px;
+    background-image: url('../images/podolg.jpg');
+    background-repeat: no-repeat;
+}
+
+.persotxt {
+    color: #045849;
+}
+
+.btnn {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+.agendar {
+    background-color: #32D5B7 !important;
+    color: white !important;
+    border: #64eee7 !important;
+}
+
+.instagram-btn {
+    background-color: #E1306C;
+  }
+
+.instagram-btn:hover {
+    background-color: #C13584;
+    transform: scale(1.1);
+  }
+
+.whatsapp-btn {
+    background-color: #25D366;
+  }
+
+.whatsapp-btn:hover {
+    background-color: #1EBEA5;
+    transform: scale(1.1);
+  }
+
+
+footer {
+    text-align: center;
+    background-color: #1EBEA5;
+    margin: 0px;
+    height: 35px;
+}
+
+/* .textMain {
     padding: 5px;
 }
 
@@ -63,9 +124,6 @@ strong {
     transform: scale(1.1);
   }
 
-iframe {
-    width: 90%;
-} 
 
 .lgpd {
     text-decoration: none;
@@ -87,4 +145,4 @@ iframe {
     .backgroundImage {
         background-image: url('../images/podolg.jpg');
     }
-}
+} */

@@ -9,9 +9,14 @@
 
 /* Example: Customizing the Navbar */
 
+body {
+    background-color: #F1F7F6;
+}
+
 header{ 
     height: 45px;
-    background-color: #1EBEA5;
+    padding: 27px 0px !important;
+    background-color: #2CC296;
 }
 
 .navbar {
@@ -27,8 +32,9 @@ header{
 }
 
 .mainImg {
-    height: 400px;
-    background-image: url('../images/podolg.jpg');
+    height: 600px;
+    background-color: #F1F7F6;
+    /* background-image: url('../images/podolg.jpg'); */
     background-repeat: no-repeat;
 }
 
@@ -38,11 +44,12 @@ header{
 
 .btnn {
     text-decoration: none;
+    width: 130px !important;
     color: white;
     font-size: 16px;
     font-weight: bold;
-    margin: 5px;
-    padding: 10px 20px;
+    margin: 10px 15px !important;
+    padding: 10px 10px;
     border-radius: 5px;
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -145,4 +152,23 @@ strong {
     .backgroundImage {
         background-image: url('../images/podolg.jpg');
     }
+} */
+
+
+/* fonte */
+
+.alfa-slab-one-regular {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+/* background-color */
+
+.custom-bg {
+    background-color: #F1F7F6 !important;
+}
+
+/* .img-fluid {
+    max-width: 80% !important;
 } */

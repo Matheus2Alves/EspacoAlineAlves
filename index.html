@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body class="container-fluid p-0 m-0">
-    <header class="container-fluid p-0">
+<body class="container-fluid p-0 custom-bg">
+    <header class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Espaço Aline Alves</a>
@@ -35,37 +38,54 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid p-0 gap-3" >
-        <div class="container-fluid p-0 mainImg">
-            <div class="grid">
-                <div class="col-12 pt-4 ps-4">Não espere a</div>
-                <div class="col-6 fs-1 fw-bold ps-4 text-danger">Dor piorar.</div>
-                <div class="col-12 ps-4">Agende a sua consulta <strong class="fw-bold perstotxt">agora mesmo.</strong></div>
-                <div class="col-12 fs-1 fw-bold ps-4 persotxt">Cuide dos seus pés.</div>
-                <div class="col mt-4 ps-4">
-                    <button type="button" class="btn btn-primary btn-lg agendar">Agendar</button>
+    <main class="container-fluid p-0" >
+        <div class="container-fluid d-flex flex-column justify-content-evenly align-items-center flex-md-row justify-content-md-around mainImg">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12 ">Não espere a</div>
+                    <div class="col-12 fs-1 fw-bold text-danger alfa-slab-one-regular">Dor piorar.</div>
+                    <div class="col-12">Agende a sua consulta <strong class="fw-bold perstotxt">agora mesmo.</strong></div>
+                    <div class="col-12 fs-1 fw-bold persotxt alfa-slab-one-regular">Cuide dos seus pés.</div>
+                    <div class="col-12 mt-3">
+                        <button type="button" class="btn btn-primary btn-lg agendar">Agendar</button>
+                    </div>
                 </div>
-            </div> 
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="col-12">
+                        Feedback
+                        bla
+                        <p>afaf</p>
+                        <a href="afaf">aaa</a>
+                    </div>
+                </div>
+            </div>          
         </div>
         <div clas="container-fluid">
-            <div class="row g-0">
-                <div class="col-12 col-md-7 gy-3">
+            <div class="d-flex flex-column justify-content-center flex-md-row custom-bg">
+                <div class=" container-md p-2">
                     <a href="https://www.instagram.com/espacoalinealvess/" target="_blank" class="btnn instagram-btn">
                         <i class="fab fa-instagram"></i> Instagram
                     </a>
                     <a href="https://wa.me/yourphonenumber" target="_blank" class="btnn whatsapp-btn">
                         <i class="fab fa-whatsapp"></i> WhatsApp
                     </a>
-                </div>
-                <div class="col-12 col-md-5 p-2">
                     <h3>Localização do Espaço Aline Alves</h3>
                     <p>Av. Padre Anchieta, 176 - sala 1 - Jordanópolis, São Bernardo do Campo - SP, 09891-420</p>
-                    <img src="./images/localEspaco.png" class="img-fluid" alt="Espaço Aline Alves">
+                    <div class="container-sm ">
+                        <img src="./images/localEspaco.png" class="img-fluid local" alt="Espaço Aline Alves">
+                    </div>
+                </div>
+
+                <div class="container-md d-flex flex-column  align-items-center p-2">
+                    <h2>Um Refúgio para o Seu Bem-Estar</h2>
+                    <p>Em meio à rotina acelerada e aos desafios do dia a dia, encontrar um momento para cuidar de si mesmo é essencial para a saúde física e mental. Pensando nisso, criamos um espaço exclusivo, onde você pode desfrutar de uma experiência completa de bem-estar, com serviços personalizados e realizados por profissionais altamente qualificados.</p>
                 </div>
             </div>
         </div>
         <div class="container-sm">
-            <div class="coljustify-content-center">
+            <div class="col justify-content-center custom-bg">
                 <p>Seus dados não serão armazenados e serão utilizados exclusivamente para os fins aos quais foram fornecidos, em conformidade com a <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" class="lgpd">Lei Geral de Proteção de Dados (LGPD).</a></p>
             </div>
         </div>

@@ -73,11 +73,12 @@ header{
 
 .card-link {
     text-decoration: none !important;
-    color: #32D5B7 !important;
+    color: #E6BB35 !important;
 }
 
 .instagram-btn {
-    background-color: #E1306C;
+    background-color: #093027;
+    color: #E6BB35 ; /*  E1306C */
   }
 
 .instagram-btn:hover {
@@ -86,7 +87,8 @@ header{
   }
 
 .whatsapp-btn {
-    background-color: #25D366;
+    background-color: #093027; /* #25D366 */
+    color: #E6BB35;
   }
 
 .whatsapp-btn:hover {
@@ -199,4 +201,25 @@ strong {
 .perfil {
     width: 50px;
     height: 60px;
+}
+
+.textDiv {
+    background-color: #37cfb177;
+    border: 2px solid #1EBEA5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+span {
+    font-weight: 700;
+    color: #045849/* #093027 */;
+}
+
+mark {
+    background-color: #E6BB35 !important;
+}
+
+.textAbout {
+    text-align: justify;
+    text-indent: 10px;
 }

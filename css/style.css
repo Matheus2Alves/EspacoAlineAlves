@@ -34,12 +34,12 @@ header{
 .mainImg {
     height: 600px;
     background-color: #F1F7F6;
-    /* background-image: url('../images/podolg.jpg'); */
+    background-image: url('../images/fundoPodo500.jpg'); 
     background-repeat: no-repeat;
 }
 
 .persotxt {
-    color: #045849;
+    color: #61f0c5 /* #045849 */;
 }
 
 .btnn {
@@ -50,15 +50,15 @@ header{
     font-weight: bold;
     margin: 10px 15px !important;
     padding: 10px 10px;
-    border-radius: 5px;
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
 
 .agendar {
-    background-color: #32D5B7 !important;
-    color: white !important;
-    border: #64eee7 !important;
+    background-color: white  !important;
+    color: #1EBEA5 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
 }
 
 .card-container {
@@ -77,8 +77,7 @@ header{
 }
 
 .instagram-btn {
-    background-color: #093027;
-    color: #E6BB35 ; /*  E1306C */
+    color: #1EBEA5 ; /*  E1306C */
   }
 
 .instagram-btn:hover {
@@ -87,8 +86,8 @@ header{
   }
 
 .whatsapp-btn {
-    background-color: #093027; /* #25D366 */
-    color: #E6BB35;
+ /* #25D366 */
+    color: #1EBEA5;
   }
 
 .whatsapp-btn:hover {
@@ -178,15 +177,19 @@ strong {
     }
 } 
 
-
+@media (min-width: 576px) {
+    .mainImg {
+        background-image: url('../images/fundoPodo700.jpg');
+    }
+}
 /* fonte */
 
 .alfa-slab-one-regular {
     font-family: "Tinos", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
+  } 
+
 /* background-color */
 
 .custom-bg {
@@ -205,8 +208,6 @@ strong {
 
 .textDiv {
     background-color: #37cfb177;
-    border: 2px solid #1EBEA5;
-    border-radius: 10px;
     padding: 5px;
 }
 
@@ -222,4 +223,12 @@ mark {
 .textAbout {
     text-align: justify;
     text-indent: 10px;
+}
+
+.h1 {
+    font-size: 2.4em !important;
+}
+
+.h3 {
+    font-size: 1.4em !important;
 }

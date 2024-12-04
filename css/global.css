@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F1F7F6 !important;
+}
+
+header{ 
+    height: 66px !important;
+    padding: 0px 0px !important;
+    background-color: #2CC296;
+}
+
+.navbar {
+    background-color: #11FFD4; /* Dark background */
+    color: white !important;
+}
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: #ffffff; /* White text */
+}
+.navbar .nav-link:hover {
+    color: #a09d9d; /* Light gray on hover */
+}
+
+footer {
+    text-align: center;
+    background-color: #1EBEA5;
+    margin: 0px;
+    height: 35px;
+}

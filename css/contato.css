@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #F1F7F6;
+}
+
+main {
+   background-color: #1EBEA5 !important;
+   color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+}

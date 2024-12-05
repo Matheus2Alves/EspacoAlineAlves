@@ -1,0 +1,42 @@
+body, html {
+    height: 100%; /* Ensure the body and HTML take the full viewport height */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F1F7F6 !important;
+}
+
+main {
+    flex: 1; /* Allow the main content to expand and push the footer to the bottom */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+card-body {
+    height: 400px !important;
+}
+
+.agendar {
+    background-color: white  !important;
+    color: #1EBEA5 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.agendar:hover {
+    background-color: #E6BB35 !important;
+    border-color: #E6BB35 !important;
+    color: #045849 !important;
+    transform: scale(1.1);
+}
+
+.card img {
+    height: 200px !important;
+}

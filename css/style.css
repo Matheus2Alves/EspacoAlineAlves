@@ -82,6 +82,10 @@
     transform: scale(1.1);
   }
 
+.gold {
+    color: #E6BB35;
+}
+
 /* .textMain {
     padding: 5px;
 }

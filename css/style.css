@@ -1,16 +1,6 @@
-/* .backgroundImage {
-    background-image: url('../images/podoxm.jpg');
-    background-color: antiquewhite;
-    background-repeat: no-repeat;
-    height: 400px;
-} */
-
-/* Example: Customizing the Navbar */
-
 .mainImg {
     height: 600px;
     background-color: #F1F7F6;
-    background-image: url('../images/fundoPodo500.jpg'); 
     background-repeat: no-repeat;
 }
 
@@ -86,108 +76,6 @@
     color: #E6BB35;
 }
 
-/* .textMain {
-    padding: 5px;
-}
-
-strong {
-    color: rgb(134, 248, 248);
-}
-
-
-.btnn {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px;
-    display: inline-block;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-
-
-.agendar {
-    background-color: #1EBEA5 !important;
-    border-color: #1EBEA5 !important;
-}
-
-.instagram-btn {
-    background-color: #E1306C;
-  }
-
-.instagram-btn:hover {
-    background-color: #C13584;
-    transform: scale(1.1);
-  }
-
-.whatsapp-btn {
-    background-color: #25D366;
-  }
-
-.whatsapp-btn:hover {
-    background-color: #1EBEA5;
-    transform: scale(1.1);
-  }
-
-
-.lgpd {
-    text-decoration: none;
-    color:  #92a1d1;
-}
-
-.footer {
-    background-color: aquamarine;
-}
-
-
-@media (min-width: 576px) {
-    .backgroundImage {
-        background-image: url('../images/podomd.jpg');
-    }
-}
-
-@media (min-width: 768px) {
-    .backgroundImage {
-        background-image: url('../images/podolg.jpg');
-    }
-} */
-
-@media (min-width: 1200px) {
-    .card-container {
-        width: 50% !important;
-    }
-    
-    .mainImg {
-        background-image: url('../images/fundo1400.jpg');
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .card-container {
-        width: 50% !important;
-    }
-    
-    .mainImg {
-        background-image: url('../images/fundo1200.jpg');
-    }
-}
-
- @media (min-width: 768px) and (max-width: 991.98px) {
-    .card-container {
-        width: 50% !important;
-    }
-
-    .mainImg {
-        background-image: url('../images/fundoPodo992.jpg');
-    }
-} 
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .mainImg {
-        background-image: url('../images/fundoPodo700.jpg');
-    }
-}
 /* fonte */
 
 .alfa-slab-one-regular {
